@@ -24,6 +24,12 @@ points:
           key.splay: -15
           key.origin: [-0.5U, -0.5U]
           key.name: thumb_reachy
+outlines:
+  left:
+    - where: true
+      what: rectangle
+      size: [cx + 7, cy + 7]
+      fillet: 1
 pcbs:
   simple_split:
     footprints:
